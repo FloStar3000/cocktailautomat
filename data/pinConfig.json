@@ -1,0 +1,8 @@
+{
+    "pumpCount":6,
+    "pumpPins": [36,37,35,33,31,29],
+    "directionPins": [38,40],
+    "mltomsFactor" : 370,
+    "prerunTime" : 3000,
+    "flushTime": 3000
+}

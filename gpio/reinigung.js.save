@@ -1,0 +1,22 @@
+var gpio = require('rpi-gpio')
+
+var pins = [29,31,33,35,37,36]
+var dirPins = [38,40]
+var duration = 60
+var durationBack = 10
+
+for(var i = 0; i<pins.length; i++){
+	gpio.setup(pins[i],gpio.DIR_OUR);
+}
+
+
+console.log(`Pumping `)
+ 
+gpiop.setup(pin, gpio.DIR_OUT)
+    .then(() => {
+       return  gpiop.write(pin, state)
+       
+    })
+    .catch((err) => {
+        console.log('Error: ', err.toString())
+    })

@@ -1,0 +1,336 @@
+﻿{
+    "cocktails" : [{
+    "id":"0001",
+    "name":"Pina Colada",
+    "ingredients":[
+        {
+            "ingredient":"weisser_rum",
+            "amount": 40,
+            "display_name":"Weißer Rum"
+        },
+        {
+            "ingredient":"kokosnussmilch",
+            "amount": 60,
+            "display_name":"Kokosnussmilch"
+        },
+        {
+            "ingredient":"ananassaft",
+            "amount": 100,
+            "display_name": "Ananassaft"
+        }
+    ],
+    "description":"3-4 Eiswürfel in ein Glas geben und optional 2cl Schlagsahne hinzugeben",
+    "img": "0001_pina_colada.jpg"
+},
+{
+    "id":"0002",
+    "name":"Tequila Sunrise",
+    "ingredients":[
+        {
+            "ingredient":"tequila",
+            "amount": 40,
+            "display_name":"Tequila"
+        },
+        {
+            "ingredient":"orangensaft",
+            "amount": 100,
+            "display_name":"Orangensaft"
+        },
+        {
+            "ingredient":"grenadine",
+            "amount": 20,
+            "display_name": "Grenadine"
+        }
+    ],
+    "description":"Orangenscheibe an den Rand stecken und 4 Eiswürfel hinzugeben",
+    "img": "0002_tequila_sunrise.jpg"
+},
+{
+    "id":"0003",
+    "name":"Lillet Berry",
+    "ingredients":[
+        {
+            "ingredient":"lillet",
+            "amount": 70,
+            "display_name":"Lillet blanc"
+        },
+        {
+            "ingredient":"russian_wild_berry",
+            "amount": 150,
+            "display_name":"Limonade Russian Wild Berry"
+        }
+    ],
+    "description":"einige Eiswürfel in ein Glas geben und eine Orangenscheibe an den Rand stecken",
+    "img": "0003_lillet_berry.jpg"
+},
+{
+    "id":"0004",
+    "name":"Mai Tai",
+    "ingredients":[
+        {
+            "ingredient":"brauner_rum",
+            "amount": 50,
+            "display_name":"Brauner Rum"
+        },
+        {
+            "ingredient":"ananassaft",
+            "amount": 130,
+            "display_name":"Ananassaft"
+        }
+    ],
+    "description":"ein St Limette auspressen und 5 Eiswürfel hinzugeben sowie Zuckersirup und Mandelsirup n.B. hinzufügen",
+    "img": "0004_mai_tai.jpg"
+},
+{
+    "id":"0005",
+    "name":"Mojito",
+    "ingredients":[
+        {
+            "ingredient":"weisser_rum",
+            "amount": 50,
+            "display_name":"Weißer Rum"
+        },
+        {
+            "ingredient":"soda",
+            "amount": 70,
+            "display_name":"Soda"
+        }
+    ],
+    "description":"4 EL Crushed Ice, 2 TL brauner Zucker, 1 St Limette und 8 Blätter Minze in ein Glas geben",
+    "img": "0005_mojito.jpg"
+},
+{
+    "id":"0006",
+    "name":"Blue Lagoon",
+    "ingredients":[
+        {
+            "ingredient":"wodka",
+            "amount": 30,
+            "display_name":"Wodka"
+        },
+        {
+            "ingredient":"blue_curacao",
+            "amount": 20,
+            "display_name":"Blue Curaco"
+        },
+        {
+            "ingredient":"limonade",
+            "amount": 170,
+            "display_name":"Limonade"
+        }
+    ],
+    "description":"etwas Zitronensaft mit 5 Eiswürfeln in ein Glas hinzufügen",
+    "img": ""
+},
+{
+    "id":"0007",
+    "name":"Swimmingpool",
+    "ingredients":[
+        {
+            "ingredient":"brauner_rum",
+            "amount": 20,
+            "display_name":"Brauner Rum"
+        },
+        {
+            "ingredient":"wodka",
+            "amount": 20,
+            "display_name":"Wodka"
+        },
+        {
+            "ingredient":"blue_curacao",
+            "amount": 20,
+            "display_name":"Blue Curaco"
+        },
+        {
+            "ingredient":"ananassaft",
+            "amount": 150,
+            "display_name":"Ananassaft"
+        },
+        {
+            "ingredient":"kokosnussmilch",
+            "amount": 50,
+            "display_name":"Kokosnussmilch oder Sahne"
+        },
+        {
+            "ingredient":"blue_curacao",
+            "amount": 20,
+            "display_name":"Blue Curacao"
+        }
+    ],
+    "description":"bis zu 4cl Kokossirup mit gecrushtem Eis in ein Glas geben und einen St Ananas anstecken",
+    "img": "0007_swimmingpool.jpg"
+},
+{
+    "id":"0008",
+    "name":"Wodka-O",
+    "ingredients":[
+        {
+            "ingredient":"wodka",
+            "amount": 30,
+            "display_name":"Wodka"
+        },
+        {
+            "ingredient":"orangensaft",
+            "amount": 240,
+            "display_name":"Orangensaft"
+        }
+    ],
+    "description":"3 Eiswürfel in ein Glas geben und eine Scheibe Zitrone oder Orange anstecken",
+    "img": "wodka_orange.jpg"
+},
+{
+    "id":"0009",
+    "name":"Ananas-Wodka",
+    "ingredients":[
+        {
+            "ingredient":"wodka",
+            "amount": 30,
+            "display_name":"Wodka"
+        },
+        {
+            "ingredient":"ananassaft",
+            "amount": 200,
+            "display_name":"Ananassaft"
+        },
+        {
+            "ingredient":"soda",{
+    "id":"0001",
+    "name":"Pina Colada",
+    "ingredients":[
+        {
+            "ingredient":"weisser_rum",
+            "amount": 40,
+            "display_name":"Weißer Rum"
+        },
+        {
+            "ingredient":"kokosnussmilch",
+            "amount": 60,
+            "display_name":"Kokosnussmilch"
+        },
+        {
+            "ingredient":"ananassaft",
+            "amount": 100,
+            "display_name": "Ananassaft"
+        }
+    ],
+    "description":"3-4 Eiswürfel in ein Glas geben und optional 2cl Schlagsahne hinzugeben",
+    "img": "0001_pina_colada.jpg"
+}
+            "amount": 40,
+            "display_name":"Soda"
+        }
+    ],
+    "description":"3 Eiswürfel in ein Glas geben und ein St Ananas anstecken",
+    "img": "0009_ananas_wodka.jpg"
+},
+{
+    "id":"0010",
+    "name":"Long Island Ice Tea",
+    "ingredients":[
+        {
+            "ingredient":"wodka",
+            "amount": 10,
+            "display_name":"Wodka"
+        },
+        {
+            "ingredient":"weisser_rum",
+            "amount": 10,
+            "display_name":"Weißer Rum"
+        },
+        {
+            "ingredient":"tequila",
+            "amount": 10,
+            "display_name":"Tequila"
+        },
+        {
+            "ingredient":"limonade",
+            "amount": 190,
+            "display_name":"Limonade"
+        },
+        {
+            "ingredient":"gin",
+            "amount": 10,
+            "display_name":"Gin"
+        }
+    ],
+    "description":"mit etwas Cola und 1cl Sirup aufgießen, Eis hinzugeben und einer Scheibe Zitrone oder Orange verzieren",
+    "img": "0010_long_island_ice_tea.jpg"
+},
+{
+    "id":"0011",
+    "name":"Gin Tonic",
+    "ingredients":[
+        {
+            "ingredient":"tonic",
+            "amount": 10,
+            "display_name":"Tonic"
+        },
+        {
+            "ingredient":"gin",
+            "amount": 40,
+            "display_name":"Gin"
+        }
+    ],
+    "description":"5 Eiswürfel und optional ein St Gurke in ein Glas geben",
+    "img": "0011_gin_tonic.jpg"
+},
+{
+"id":"0012",
+"name":"KiBa",
+  "description": "Alkoholfrei, lecker!",
+"img":"0004_mai_tai",
+"ingredients":[
+{
+"ingredient":"kirschsaft",
+"amount":100,
+"display_name":"Kirschsaft"
+},
+{
+"ingredient":"bananensaft",
+"display_name":"Bananensaft",
+"amount":125
+
+}
+]
+},
+{
+"id":"0013",
+"name":"Yellowstone",
+"ingredients":[
+{
+"ingredient":"wodka",
+"display_name":"Wodka",
+"amount":60
+},
+{
+"ingredient":"mangosirup",
+"amount":30,
+"display_name":"Mangosirup"
+},
+{
+"ingredient":"pfirsichsaft",
+"amount":100,
+"display_name":"Pfirsichsaft"
+}
+]
+},
+{
+    "id":"0014",
+    "name":"Pina Colada alkfrei",
+    "ingredients":[      
+        {
+            "ingredient":"kokosnussmilch",
+            "amount": 65,
+            "display_name":"Kokosnussmilch"
+        },
+        {
+            "ingredient":"ananassaft",
+            "amount": 120,
+            "display_name": "Ananassaft"
+        }
+    ],
+    "description":"3-4 Eiswürfel in ein Glas geben und optional 2cl Schlagsahne hinzugeben",
+    "img": "0001_pina_colada.jpg"
+}
+]}
+

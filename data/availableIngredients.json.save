@@ -1,0 +1,21 @@
+{
+    "availableIngredients":[
+        "wodka",
+	"weisser_rum",
+	"ananassaft",
+	"kokosnussmilch",
+	"
+
+    ],
+    "_comment":[
+        "brauner_rum",
+        "tequila",
+        "orangensaft",
+        "grenadine",
+        "limonade",
+        "wodka",
+        "blue_curacao",
+        "gin"
+    ]
+
+}
