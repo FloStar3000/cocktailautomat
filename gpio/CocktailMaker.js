@@ -19,7 +19,7 @@ class CocktailMaker{
             await gpiop.setup(directionPins[0], gpio.DIR_HIGH)
             await gpiop.setup(directionPins[1], gpio.DIR_HIGH)
             for(let i = 0; i<pumpPins.length; i++){
-                await gpiop.setup(pumpPins[i], gpio.DIR_HIGH)
+                await gpiop.setup(pumpPins[i], negatePins[i] ? gpio.DIR_HIGH : gpio.DIR_LOW)
             }
         }
         this.makeCocktail = async (amounts)=>{
