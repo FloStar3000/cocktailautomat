@@ -4,5 +4,6 @@
     "directionPins": [38,40],
     "mltomsFactor" : 370,
     "prerunTime" : 3000,
-    "flushTime": 3000
+    "flushTime": 3000,
+    "negatePins": [true,true,true,true,true,true,false,false]
 }

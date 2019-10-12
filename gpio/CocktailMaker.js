@@ -1,17 +1,17 @@
-const gpio = require("rpi-gpio");
-const gpiop = gpio.promise;
-const {pumpPins,directionPins,pumpCount,mltomsFactor,prerunTime,flushTime} = require("../data/pinConfig")
+// const gpio = require("rpi-gpio");
+// const gpiop = gpio.promise;
+const {pumpPins,directionPins,pumpCount,mltomsFactor,prerunTime,flushTime,negatePins} = require("../data/pinConfig")
 const delay =(ms) => new Promise(resolve => setTimeout(resolve, ms))
 
-// const gpio = {
-//     write : (pin,state)=>console.log("Writing Pin ",pin,"to state",state),
-//     DIR_HIGH:"high",
-//     DIR_LOW:"low",
-// }
+const gpio = {
+    write : (pin,state)=>console.log("Writing Pin ",pin,"to state",state),
+    DIR_HIGH:"high",
+    DIR_LOW:"low",
+}
 
-// const gpiop = {
-//     setup: (pin,state)=>console.log("Setup Pin ",pin,"to state",state)
-// }
+const gpiop = {
+    setup: (pin,state)=>console.log("Setup Pin ",pin,"to state",state)
+}
 
 class CocktailMaker{
     constructor(){
@@ -29,8 +29,8 @@ class CocktailMaker{
             for(let i = 0; i<pumpPins.length;i++){
                 if(!amounts[i]) continue
                 if(amounts[i]>0){
-                    gpio.write(pumpPins[i],false)
-                    setTimeout(()=>gpio.write(pumpPins[i],true),durations[i])
+                    gpio.write(pumpPins[i],!negatePins[i])
+                    setTimeout(()=>gpio.write(pumpPins[i],negatePins[i]),durations[i])
                 }
             }
             await delay(highestDuration+1000)
@@ -43,8 +43,8 @@ class CocktailMaker{
                 if(!amounts[i]) continue
                 if(amounts[i]>0){
                     waitTime+= 1000
-                    gpio.write(pumpPins[i],false)
-                    setTimeout(()=>gpio.write(pumpPins[i],true),flushTime)
+                    gpio.write(pumpPins[i],!negatePins[i])
+                    setTimeout(()=>gpio.write(pumpPins[i],negatePins[i]),flushTime)
                     await delay(1000)
                 }
             }
@@ -58,7 +58,7 @@ class CocktailMaker{
             console.log("Cancelling!")
             //turn all pumps off
             for(let i = 0; i<pumpPins.length;i++){
-                    gpio.write(pumpPins[i],true)
+                    gpio.write(pumpPins[i],negatePins[i])
                     await delay(30)
             }
             await delay(200)
@@ -70,12 +70,11 @@ class CocktailMaker{
 }
 module.exports=CocktailMaker
 
-// ;(async()=>{
-//     const cocktailMaker = new CocktailMaker()
-//     console.log("Constructed!")
-//     await cocktailMaker.setup()
-//     console.log("Setup!")
-//     setTimeout(()=>cocktailMaker.cancel(),500)
-//     await cocktailMaker.makeCocktail([1,2,3,0,0,0])
+;(async()=>{
+    const cocktailMaker = new CocktailMaker()
+    console.log("Constructed!")
+    await cocktailMaker.setup()
+    console.log("Setup!")
+    await cocktailMaker.makeCocktail([1,2,3,0,0,0,21])
     
-// })()
+})()
