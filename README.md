@@ -1,3 +1,5 @@
+NOTE: Run npm run rebuild to make the app running
+
 # electron-quick-start
 
 **Clone and run for a quick way to see Electron in action.**
