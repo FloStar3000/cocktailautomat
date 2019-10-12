@@ -1,17 +1,17 @@
-// const gpio = require("rpi-gpio");
-// const gpiop = gpio.promise;
+const gpio = require("rpi-gpio");
+const gpiop = gpio.promise;
 const {pumpPins,directionPins,pumpCount,mltomsFactor,prerunTime,flushTime,negatePins} = require("../data/pinConfig")
 const delay =(ms) => new Promise(resolve => setTimeout(resolve, ms))
 
-const gpio = {
-    write : (pin,state)=>console.log("Writing Pin ",pin,"to state",state),
-    DIR_HIGH:"high",
-    DIR_LOW:"low",
-}
+// const gpio = {
+//     write : (pin,state)=>console.log("Writing Pin ",pin,"to state",state),
+//     DIR_HIGH:"high",
+//     DIR_LOW:"low",
+// }
 
-const gpiop = {
-    setup: (pin,state)=>console.log("Setup Pin ",pin,"to state",state)
-}
+// const gpiop = {
+//     setup: (pin,state)=>console.log("Setup Pin ",pin,"to state",state)
+// }
 
 class CocktailMaker{
     constructor(){
@@ -70,11 +70,11 @@ class CocktailMaker{
 }
 module.exports=CocktailMaker
 
-;(async()=>{
-    const cocktailMaker = new CocktailMaker()
-    console.log("Constructed!")
-    await cocktailMaker.setup()
-    console.log("Setup!")
-    await cocktailMaker.makeCocktail([1,2,3,0,0,0,21])
+// ;(async()=>{
+//     const cocktailMaker = new CocktailMaker()
+//     console.log("Constructed!")
+//     await cocktailMaker.setup()
+//     console.log("Setup!")
+//     await cocktailMaker.makeCocktail([1,2,3,0,0,0,21])
     
-})()
+// })()
