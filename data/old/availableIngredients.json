@@ -1,0 +1,30 @@
+{
+    "availableIngredients": [
+        "kokosnussmilch",
+        "ananassaft",
+        "weisser_rum",
+        "lillet",
+        "russian_wild_berry"
+    ],
+    "possibleIngredients": [
+        "ananassaft",
+        "bananensaft",
+        "blue_curacao",
+        "brauner_rum",
+        "gin",
+        "grenadine",
+        "kirschsaft",
+        "kokosnussmilch",
+        "lillet",
+        "limonade",
+        "mangosirup",
+        "orangensaft",
+        "pfirsichsaft",
+        "russian_wild_berry",
+        "soda",
+        "tequila",
+        "tonic",
+        "weisser_rum",
+        "wodka"
+    ]
+}

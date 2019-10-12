@@ -1,4 +1,4 @@
-﻿[{
+[{
     "id":"0001",
     "name":"Pina Colada",
     "ingredients":[
@@ -18,7 +18,7 @@
             "display_name": "Ananassaft"
         }
     ],
-    "description":"3-4 Eiswürfel mit 2cl Cocossirup in ein Glas geben",
+    "description":"3-4 Eiswürfel in ein Glas geben und optional 2cl Schlagsahne hinzugeben",
     "img": "0001_pina_colada.jpg"
 },
 {
@@ -67,7 +67,7 @@
     "name":"Mai Tai",
     "ingredients":[
         {
-            "ingredient":"weisser_rum",
+            "ingredient":"brauner_rum",
             "amount": 50,
             "display_name":"Brauner Rum"
         },
@@ -119,14 +119,14 @@
         }
     ],
     "description":"etwas Zitronensaft mit 5 Eiswürfeln in ein Glas hinzufügen",
-    "img": "0006_blue_lagoon.jpg"
+    "img": ""
 },
 {
     "id":"0007",
     "name":"Swimmingpool",
     "ingredients":[
         {
-            "ingredient":"weisser_rum",
+            "ingredient":"brauner_rum",
             "amount": 20,
             "display_name":"Brauner Rum"
         },
@@ -138,7 +138,7 @@
         {
             "ingredient":"blue_curacao",
             "amount": 20,
-            "display_name":"Blue Curaçao"
+            "display_name":"Blue Curaco"
         },
         {
             "ingredient":"ananassaft",
@@ -149,8 +149,12 @@
             "ingredient":"kokosnussmilch",
             "amount": 50,
             "display_name":"Kokosnussmilch oder Sahne"
+        },
+        {
+            "ingredient":"blue_curacao",
+            "amount": 20,
+            "display_name":"Blue Curacao"
         }
-        
     ],
     "description":"bis zu 4cl Kokossirup mit gecrushtem Eis in ein Glas geben und einen St Ananas anstecken",
     "img": "0007_swimmingpool.jpg"
@@ -186,10 +190,14 @@
             "ingredient":"ananassaft",
             "amount": 200,
             "display_name":"Ananassaft"
+        },
+        {
+            "ingredient":"soda",
+            "amount": 40,
+            "display_name":"Soda"
         }
-        
     ],
-    "description":"3 Eiswürfel in ein Glas geben und 4cl Apfelkorn",
+    "description":"3 Eiswürfel in ein Glas geben und ein St Ananas anstecken",
     "img": "0009_ananas_wodka.jpg"
 },
 {
@@ -214,7 +222,7 @@
         {
             "ingredient":"limonade",
             "amount": 190,
-            "display_name":"Limonade oder Cola"
+            "display_name":"Limonade"
         },
         {
             "ingredient":"gin",
@@ -222,7 +230,7 @@
             "display_name":"Gin"
         }
     ],
-    "description":"mit etwas Cola und 2cl Sirup aufgießen, Eis hinzugeben und einer Scheibe Zitrone oder Orange verzieren",
+    "description":"mit etwas Cola und 1cl Sirup aufgießen, Eis hinzugeben und einer Scheibe Zitrone oder Orange verzieren",
     "img": "0010_long_island_ice_tea.jpg"
 },
 {
@@ -286,235 +294,20 @@
 {
     "id":"0014",
     "name":"Pina Colada alkfrei",
-    "ingredients":[      
+    "ingredients":[
+       
         {
             "ingredient":"kokosnussmilch",
-            "amount": 65,
+            "amount": 60,
             "display_name":"Kokosnussmilch"
         },
         {
             "ingredient":"ananassaft",
-            "amount": 120,
+            "amount": 100,
             "display_name": "Ananassaft"
         }
     ],
-    "description":"3-4 Eiswürfel mit 2cl Cocossirup in ein Glas geben",
+    "description":"3-4 Eiswürfel in ein Glas geben und optional 2cl Schlagsahne hinzugeben",
     "img": "0001_pina_colada.jpg"
-},
-
-
-{
-    "id":"0015",
-    "name":"Arielle",
-    "ingredients":[      
-        {
-            "ingredient":"blue_curacao",
-            "amount": 30,
-            "display_name":"Blue Curaçao"
-        },
-        {
-            "ingredient":"weisser_rum",
-            "amount": 30,
-            "display_name": "Weißer Rum"
-        },
-        {
-            "ingredient":"limonade",
-            "amount": 165,
-            "display_name":"Limonade"
-        }
-    ],
-    "description":"3-4 Eiswürfel mit 2cl Sirup in ein Glas geben",
-    "img": "0015_arielle.jpg"
-},
-
-{
-    "id":"0016",
-    "name":"Bacardi Lemonade",
-    "ingredients":[      
-        {
-            "ingredient":"weisser_rum",
-            "amount": 45,
-            "display_name":"Weißer Rum"
-        },
-        {
-            "ingredient":"limonade",
-            "amount": 175,
-            "display_name":"Limonade"
-        }
-    ],
-    "description":"3-4 Eiswürfel in ein Glas geben",
-    "img": "0016_barcardi_lemonade.jpg"
-},
-
-{
-    "id":"0017",
-    "name":"Blue Russian",
-    "ingredients":[   
-        {
-            "ingredient":"blue_curacao",
-            "amount": 25,
-            "display_name":"Blue Curaçao"
-        },   
-        {
-            "ingredient":"wodka",
-            "amount": 45,
-            "display_name":"Wodka"
-        },
-        {
-            "ingredient":"limonade",
-            "amount": 155,
-            "display_name":"Limonade"
-        }
-    ],
-    "description":"*Achtung stark!* 3 Eiswürfel in ein Glas geben",
-    "img": "0017_blue_russian.jpg"
-},
-
-{
-    "id":"0018",
-    "name":"Blue-Tequila-Shot",
-    "ingredients":[   
-        {
-            "ingredient":"blue_curacao",
-            "amount": 15,
-            "display_name":"Blue Curaçao"
-        },   
-        {
-            "ingredient":"tequila",
-            "amount": 15,
-            "display_name":"Tequila"
-        }
-    ],
-    "description":"Einfach so genießen!",
-    "img": "0018_blue-tequila-shot.jpg"
-},
-
-{
-    "id":"0019",
-    "name":"Gin Wildberry",
-    "ingredients":[   
-        {
-            "ingredient":"russian_wild_berry",
-            "amount": 190,
-            "display_name":"Limonade Russian Wild Berry"
-        },   
-        {
-            "ingredient":"gin",
-            "amount": 15,
-            "display_name":"Gin"
-        }
-    ],
-    "description":"*weniger stark!* mit 2cl Sirup, 3 Eiswürfel und Minze genießen",
-    "img": "0019_gin_wildberry.jpg"
-},
-
-{
-    "id":"0020",
-    "name":"Gin Lime",
-    "ingredients":[   
-        {
-            "ingredient":"limonade",
-            "amount": 190,
-            "display_name":"Limonade"
-        },   
-        {
-            "ingredient":"gin",
-            "amount": 15,
-            "display_name":"Gin"
-        }
-    ],
-    "description":"Mit 2cl Sirup, 3 Eiswürfel und Minze genießen sowie Limetten genießen",
-    "img": "0020_gin_lime.jpg"
-},
-
-{
-    "id":"0021",
-    "name":"Green Pineapple",
-    "ingredients":[   
-        {
-            "ingredient":"blue_curacao",
-            "amount": 20,
-            "display_name":"Blue Curaçao"
-        },   
-        {
-            "ingredient":"tequila",
-            "amount": 30,
-            "display_name":"Tequila"
-        },
-        {
-            "ingredient":"ananassaft",
-            "amount": 170,
-            "display_name":"Ananassaft"
-        }
-    ],
-    "description":"2cl Sirup und 3-4 Eiswürfel hinzugeben",
-    "img": "0021_green_pineapple.jpg"
-},
-
-{
-    "id":"0022",
-    "name":"Kangaroo Jumper",
-    "ingredients":[   
-        {
-            "ingredient":"blue_curacao",
-            "amount": 10,
-            "display_name":"Blue Curaçao"
-        },   
-        {
-            "ingredient":"wodka",
-            "amount": 20,
-            "display_name":"Wodka"
-        },
-        {
-            "ingredient":"ananassaft",
-            "amount": 30,
-            "display_name":"Ananassaft"
-        },
-        {
-            "ingredient":"kokosnussmilch",
-            "amount": 30,
-            "display_name":"Kokosnussmilch"
-        }
-    ],
-    "description":"*kleiner Cocktail!*",
-    "img": "0022_kangaroo_jumper.jpg"
-},
-
-{
-    "id":"0023",
-    "name":"London Lemonade",
-    "ingredients":[   
-        {
-            "ingredient":"gin",
-            "amount": 40,
-            "display_name":"Gin"
-        },   
-        {
-            "ingredient":"limonade",
-            "amount": 145,
-            "display_name":"Limonade"
-        }
-    ],
-    "description":"4 Eiswürfel und Limette hinzugeben",
-    "img": "0023_london_lemonade.jpg"
-},
-
-{
-    "id":"0024",
-    "name":"Wodka Summer",
-    "ingredients":[   
-        {
-            "ingredient":"wodka",
-            "amount": 40,
-            "display_name":"Wodka"
-        },   
-        {
-            "ingredient":"limonade",
-            "amount": 140,
-            "display_name":"Limonade"
-        }
-    ],
-    "description":"5 Eiswürfel und Limette hinzugeben",
-    "img": "0024_wodka_summer.jpg"
 }
 ]
